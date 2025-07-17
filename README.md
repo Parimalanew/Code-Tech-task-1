@@ -2,18 +2,16 @@
 CODTECH INTERNSHIP - TASK 1
 FILE INTEGRITY CHECKER
 
-Author: [Your Name]
-Date: [Today's Date]
+Author: Parimala madanapalle 
 Description:
 This script is designed to monitor changes in a file by generating
 its SHA-256 hash and comparing it with a previously stored hash value.
-"""
 
 import hashlib
 import os
 
 def calculate_hash(filename):
-    """
+
     Calculates the SHA-256 hash of a given file.
 
     Parameters:
